@@ -1,0 +1,11 @@
+ssh-keygen -t rsa -f "diretorio/proprio/arquivos/" -C "andrecaue@outlook.com"
+eval "$(ssh-agent -s)"
+
+iniciando o git
+
+git init
+git config --global user.name "Andre Caue"
+git config --global user.email "andrecaue@outloook.com"
+git remote add origin
+git add .
+git commit -m 'Initial'
